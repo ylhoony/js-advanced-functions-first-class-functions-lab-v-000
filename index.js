@@ -11,5 +11,5 @@ const returnLastTwoDrivers = (collection) => {
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 function createFareMultiplier(num) {
-  return num * num;
+  return num ** 2;
 }
