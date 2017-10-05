@@ -10,8 +10,10 @@ const returnLastTwoDrivers = (collection) => {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-const createFareMultiplier = function(num) {
-  return function(fare) { return num * fare; };
+const createFareMultiplier = (num) => {
+  return (fare) => { return num * fare; };
 }
 
-const fareDoubler = 
+const fareDoubler = () => {
+  
+} 
