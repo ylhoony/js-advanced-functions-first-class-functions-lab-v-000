@@ -16,12 +16,12 @@ const createFareMultiplier = (num) => {
 
 const fareDoubler = (num) => {
   return createFareMultiplier(num)(2);
-} 
+}
 
 const fareTripler = (num) => {
   return createFareMultiplier(num)(3);
-} 
+}
 
-const selectDifferentDrivers = (arrayOfDrivers, function) => {
-  return function(arrayOfDrivers);
+const selectDifferentDrivers = (arrayOfDrivers, cb) => {
+  return cb(arrayOfDrivers);
 }
