@@ -8,4 +8,4 @@ const returnLastTwoDrivers = (collection) => {
   return collection.slice(-2);
 }
 
-const selectingDrivers = [returnFirstTwoDrivers(collection), returnLastTwoDrivers(collection)];
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
