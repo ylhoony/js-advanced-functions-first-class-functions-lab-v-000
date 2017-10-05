@@ -18,6 +18,6 @@ const fareDoubler = (num) => {
   return createFareMultiplier(num)(2);
 } 
 
-const fareDoubler = (num) => {
+const fareTripler = (num) => {
   return createFareMultiplier(num)(3);
 } 
