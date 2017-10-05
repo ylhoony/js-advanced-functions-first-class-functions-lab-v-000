@@ -9,3 +9,7 @@ const returnLastTwoDrivers = (collection) => {
 }
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
+
+const createFareMultiplier = (num) => {
+  return num * num;
+}
